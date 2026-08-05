@@ -5,3 +5,49 @@
     --BlueViolet: #7B2FE0;
     --LavanderGrey: #9C98BE;
 }
+
+header{
+    background-color: var(--PrussianBlue);
+}
+
+.header-bannere-prediction-go {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    height: 2.3em;
+    width: 100%;
+    background: linear-gradient(255deg, rgba(42, 123, 155, 1) 0%, rgba(20, 26, 56, 1) 0%, rgba(123, 47, 224, 1) 100%);
+}
+
+.header-bannere-prediction-go button {
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: white;
+
+
+    border: white solid 1px;
+    border-left: none;
+    border-right: none;
+}
+
+.header-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+
+    list-style: none;
+
+    font-family: "Orbitron";
+    font-size: 1.8em;
+}

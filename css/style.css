@@ -5,3 +5,13 @@
     --BlueViolet: #7B2FE0;
     --LavanderGrey: #9C98BE;
 }
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--PrussianBlue);
+    color: var(--LavanderGrey);
+}
+
