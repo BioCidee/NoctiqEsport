@@ -17,6 +17,9 @@ header{
     align-items: center;
     gap: 1em;
 
+    font-size: 1.3em;
+    font-weight: 700;
+
     height: 2.3em;
     width: 100%;
     background: linear-gradient(255deg, rgba(42, 123, 155, 1) 0%, rgba(20, 26, 56, 1) 0%, rgba(123, 47, 224, 1) 100%);
@@ -76,7 +79,18 @@ header{
 }
 
 header button {
+    font-size: 1em;
+    font-weight: 700;
+    font-family: "Orbitron";
     color: var(--LavanderGrey);
+
     border: var(--LavanderGrey) 1px solid;
+    border-radius: 20px;
+}
+
+header button:hover{
+    border: var(--BlueViolet) 1px solid;
+    color: var(--BlueViolet);
+    background-color: var(--LavanderGrey);
 }
 
