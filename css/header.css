@@ -30,20 +30,29 @@ header{
 .header-menu {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 
     color: white;
-
-
+    
     border: white solid 1px;
     border-left: none;
     border-right: none;
 }
 
+.header-menu-logoAndLi {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu div {
+    padding-right: 10%;
+}
+
 .header-menu ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
     gap: 2em;
 
     list-style: none;
@@ -51,3 +60,23 @@ header{
     font-family: "Orbitron";
     font-size: 1.8em;
 }
+
+.header-button-login {
+    height: 3em;
+    width: 6em;
+
+    background-color: var(--PrussianBlue);
+}
+
+.header-button-join {
+    height: 3em;
+    width: 6em;
+
+    background-color: var(--BlueViolet);
+}
+
+header button {
+    color: var(--LavanderGrey);
+    border: var(--LavanderGrey) 1px solid;
+}
+
