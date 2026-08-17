@@ -15,3 +15,8 @@ body {
     color: var(--LavanderGrey);
 }
 
+.main-presentation {
+ background-image: url(/NoctiqEsport/images/DFH_Stadium_arena.png);
+    background-size: cover;
+    background-position: bottom; 
+}

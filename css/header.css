@@ -36,9 +36,9 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    color: white;
+    color: var(--LavanderGrey);
     
-    border: white solid 1px;
+    border: var(--LavanderGrey) solid 1px;
     border-left: none;
     border-right: none;
 }
@@ -82,7 +82,7 @@ header button {
     font-size: 1em;
     font-weight: 700;
     font-family: "Orbitron";
-    color: var(--LavanderGrey);
+    color: white;
 
     border: var(--LavanderGrey) 1px solid;
     border-radius: 20px;
