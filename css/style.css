@@ -16,7 +16,23 @@ body {
 }
 
 .main-presentation {
- background-image: url(/NoctiqEsport/images/DFH_Stadium_arena.png);
+    background-image: url(/NoctiqEsport/images/output-onlinepngtools.png);
     background-size: cover;
     background-position: bottom; 
+
+    height: 40em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-presentation h1 {
+    font-family: "Orbitron";
+}
+
+.main-presentation-logo-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
