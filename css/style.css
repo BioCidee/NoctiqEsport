@@ -29,10 +29,56 @@ body {
 
 .main-presentation h1 {
     font-family: "Orbitron";
+    font-size: 3em;
 }
 
 .main-presentation-logo-title {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    color: white;
+}
+
+.main-presentation-logo-title span {
+    color: var(--DigitalBlue);
+}
+
+.main-presentation-logo-title h1 {
+    position: relative;
+    top: -1.3em;
+    left: -4em;
+}
+
+.main-presentation-buttons {
+  height: 100%;
+
+  display: flex;
+  align-items: end;
+  padding-bottom: 10em;
+  gap: 4em;
+}
+
+.main-button-BecomeAFan {
+    font-family: "Orbitron";
+    font-size: 1.1em;
+    font-weight: 900;
+
+    width: 170px;
+    height: 50px;
+}
+
+.main-button-discord {
+    font-family: "Orbitron";
+    font-size: 1.1em;
+    font-weight: 900;
+
+    width: 170px;
+    height: 50px;
+}
+
+/*  *! UPCOMING MATCH */
+
+.main-upcoming-match {
+    
 }
