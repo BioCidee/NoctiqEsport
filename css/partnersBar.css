@@ -26,15 +26,20 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
-    animation: spin 10s linear infinite;
+    animation: spin 40s linear infinite;
     padding-left: 1em;
 }
 
 .card {
     height: 65px;
+    width: max-content;
     font-size: 3rem;
     text-align: center;
-    align-content: center;    
+    align-content: center;   
+
+    font-family: 'Orbitron';
+    display: flex;
+    align-items: center;
 }
 
 @keyframes spin {
