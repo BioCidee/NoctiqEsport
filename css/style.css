@@ -91,3 +91,48 @@ body {
 }
 
 /*  *! UPCOMING MATCH */
+
+.upcoming-match {
+    color: var(--PrussianBlue);
+    width: 40%;
+
+    padding: 2em;
+
+    background-color: var(--LavanderGrey);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 40px;
+}
+
+.main-upcoming-match {
+    display: flex;
+    justify-content: center;
+
+    margin: 2em;
+}
+
+.upcoming-match-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming-match-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3em;
+}
+
+.upcoming-match-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+
+    margin: 2em;
+}
