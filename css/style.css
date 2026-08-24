@@ -135,4 +135,32 @@ body {
     gap: 2em;
 
     margin: 2em;
+
+    font-family: 'Orbitron';
+}
+
+.upcoming-match-score {
+    display: flex;
+    gap: 2em;
+
+    font-weight: 400;
+    font-family: 'Orbitron';
+}
+
+.upcoming-match .prono {
+    position: relative;
+    top: 0;
+    left: -200px;
+
+    height: 40px;
+    width: 170px;
+
+    border-radius: 20px;
+    background-color: red;
+    border: #C92C5E;
+    box-shadow: #C9482C 0px 0px 10px 10px;
+}
+
+.upcoming-match .prono:hover {
+    
 }
