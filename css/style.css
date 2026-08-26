@@ -15,6 +15,14 @@ body {
     color: var(--LavanderGrey);
 }
 
+.ligne {
+    width: 100%;
+    height: 1;
+    border: 0.2px solid var(--LavanderGrey);
+
+    margin: 0em 0 2em 0;
+}
+
 .main-presentation {
     background-image: url(/NoctiqEsport/images/output-onlinepngtools.png);
     background-size: cover;
@@ -97,10 +105,12 @@ body {
     width: 40%;
 
     font-family: 'Orbitron';
+    color: var(--LavanderGrey);
 
     padding: 2em;
 
-    background-color: var(--LavanderGrey);
+    background-color: var(--SpaceIndigo);
+    border: var(--LavanderGrey) 1px solid;
 
     display: flex;
     flex-direction: column;
@@ -151,16 +161,15 @@ body {
 
 .upcoming-match .prono {
     position: relative;
-    top: 0;
-    left: -200px;
+    left: -220px;
 
     height: 40px;
     width: 170px;
 
     border-radius: 20px;
-    background-color: red;
-    border: #C92C5E;
-    box-shadow: #C9482C 0px 0px 10px 10px;
+    background-color: rgb(184, 77, 87);
+    border: rgb(184, 77, 87);
+    box-shadow: rgb(204, 49, 64) 0px 0px 10px 10px;
 }
 
 .upcoming-match .prono:hover {
