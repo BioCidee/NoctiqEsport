@@ -159,17 +159,44 @@ body {
     font-family: 'Orbitron';
 }
 
-.upcoming-match .prono {
-    position: relative;
-    left: -220px;
+.upcoming-match-button {
+    display: flex;
+    flex-direction: row;
 
+    width: 100%;
+    justify-content: space-between;
+}
+
+.upcoming-match .prono {
     height: 40px;
     width: 170px;
 
     border-radius: 20px;
-    background-color: rgb(184, 77, 87);
+    background-color: rgb(204, 49, 64);
     border: rgb(184, 77, 87);
-    box-shadow: rgb(204, 49, 64) 0px 0px 10px 10px;
+    box-shadow: rgb(184, 77, 87, 0.3) 0px 0px 2px 10px;
+
+    color: white;
+    font-family: 'Orbitron';
+    font-weight: 600;
+}
+
+.upcoming-match .twitch {
+    height: 40px;
+    width: 170px;
+
+    border-radius: 20px;
+    background-color: rgb(123, 47, 224);
+    border: rgb(157, 100, 232);
+    box-shadow: rgb(157, 100, 232, 0.3) 0px 0px 2px 10px;
+
+    color: white;
+    font-family: 'Orbitron';
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .upcoming-match .prono:hover {
