@@ -202,3 +202,40 @@ body {
 .upcoming-match .prono:hover {
     background-color: black;
 }
+
+/*  *! OURS TEAMS */
+
+.main-our-teams {
+    height: 800px;
+
+    margin: 3em;
+}
+
+.main-our-teams h1 {
+    color: var(--BlueViolet);
+    font-size: 2em;
+    font-family: 'Orbitron';
+}
+
+.our-teams {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+    margin: 2em;
+}
+
+.team {
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background-color: var(--BlueViolet);
+}
