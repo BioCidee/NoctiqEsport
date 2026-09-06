@@ -1,0 +1,13 @@
+:root {
+    --PrussianBlue: #0A0D24;
+    --SpaceIndigo: #141A38;
+    --DigitalBlue: #3E6FF2;
+    --BlueViolet: #7B2FE0;
+    --LavanderGrey: #9C98BE;
+}
+
+footer {
+    height: 400px;
+
+    background-color: var(--BlueViolet);
+}
