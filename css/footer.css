@@ -6,8 +6,18 @@
     --LavanderGrey: #9C98BE;
 }
 
+:root {
+    --fullBlack: #000000;
+    --gunmetal: #414242;
+    --graphite: #2A2A2A;
+    --darkWine: #7A090E;
+    --charcoal: #5C5959;
+    --almondSilk: #CEB7B7;
+    --tomatoJam: #D9242F;
+}
+
 footer {
     height: 400px;
 
-    background-color: var(--BlueViolet);
+    background-color: var(--charcoal);
 }

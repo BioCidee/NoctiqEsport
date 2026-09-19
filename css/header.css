@@ -6,8 +6,18 @@
     --LavanderGrey: #9C98BE;
 }
 
+:root {
+    --fullBlack: #000000;
+    --gunmetal: #414242;
+    --graphite: #2A2A2A;
+    --darkWine: #7A090E;
+    --charcoal: #5C5959;
+    --almondSilk: #CEB7B7;
+    --tomatoJam: #D9242F;
+}
+
 header{
-    background-color: var(--PrussianBlue);
+    background-color: var(--fullBlack);
 }
 
 .header-bannere-prediction-go {
@@ -22,11 +32,11 @@ header{
 
     height: 2.3em;
     width: 100%;
-    background: linear-gradient(255deg, rgba(42, 123, 155, 1) 0%, rgba(20, 26, 56, 1) 0%, rgba(123, 47, 224, 1) 100%);
+    background: linear-gradient(255deg, var(--gunmetal) 0%, rgba(20, 26, 56, 1) 0%, var(--darkWine) 100%);
 }
 
 .header-bannere-prediction-go button {
-    background-color: blueviolet;
+    background-color: var(--fullBlack);
     border-radius: 20px;
 }
 
@@ -36,9 +46,9 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    color: var(--LavanderGrey);
+    color: var(--almondSilk);
     
-    border: var(--LavanderGrey) solid 1px;
+    border: var(--gunmetal) solid 1px;
     border-left: none;
     border-right: none;
 }
@@ -68,23 +78,23 @@ header{
     height: 3em;
     width: 6em;
 
-    background-color: var(--PrussianBlue);
+    background-color: var(--graphite);
 }
 
 .header-button-join {
     height: 3em;
     width: 6em;
 
-    background-color: var(--BlueViolet);
+    background-color: var(--darkWine);
 }
 
 header button {
     font-size: 1em;
     font-weight: 700;
     font-family: "Orbitron";
-    color: white;
+    color: var(--almondSilk);
 
-    border: var(--LavanderGrey) 1px solid;
+    border: var(--charcoal) 1px solid;
     border-radius: 20px;
 }
 
