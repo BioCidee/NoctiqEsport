@@ -1,10 +1,4 @@
-:root {
-    --PrussianBlue: #0A0D24;
-    --SpaceIndigo: #141A38;
-    --DigitalBlue: #3E6FF2;
-    --BlueViolet: #7B2FE0;
-    --LavanderGrey: #9C98BE;
-}
+
 
 :root {
     --fullBlack: #000000;
@@ -114,7 +108,7 @@ body {
 /*  *! UPCOMING MATCH */
 
 .upcoming-match {
-    width: 40%;
+    width: 50%;
 
     font-family: 'Orbitron';
     color: var(--almondSilk);
@@ -122,7 +116,7 @@ body {
     padding: 2em;
 
     background-color: var(--gunmetal);
-    border: var(--darkWine) 2px solid;
+    border: var(--darkWine) 4px solid;
 
     display: flex;
     flex-direction: column;
@@ -146,7 +140,6 @@ body {
 .upcoming-match-card {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
 
     padding: 3em;
@@ -155,12 +148,11 @@ body {
 .upcoming-match-team {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+
     gap: 2em;
 
-    margin: 2em;
-
-    font-family: 'Orbitron';
+    margin: 3em;
 }
 
 .upcoming-match-score {
@@ -188,7 +180,7 @@ body {
     border: rgb(184, 77, 87);
     box-shadow: rgb(184, 77, 87, 0.3) 0px 0px 2px 10px;
 
-    color: white;
+    color: var(--almondSilk);
     font-family: 'Orbitron';
     font-weight: 600;
 }
